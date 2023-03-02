@@ -4,7 +4,7 @@ First, I installed scapy on system from the terminal
 
 Once scapy is installed, I used it to forget UDP packets by running the following command:
 
-scapy -A -d -w udp_vvvemuri@asu.edu.conf.pcap
+scapy -A -d -w udp_email.conf.pcap
 
 1) Used a VPN or proxy to change the IP address to 10.2.4.10.
 2) Used a packet sniffer to intercept the flag being sent from FlagServ to the trusted IP address.

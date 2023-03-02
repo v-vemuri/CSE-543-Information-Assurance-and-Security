@@ -2,7 +2,7 @@ I started by downloading the openvpn configuration file.
 
 sudo openvpn --config vvvemuri@asu.edu.conf
 Then I set the interface to tap0
-sudo tcpdump -i tap0 -w vvvemuri@asu.edu.conf.pcap
+sudo tcpdump -i tap0 -w email.conf.pcap
 ```
 I have installed virtual machine to complete this assignment and mounted ubuntu 22.04 iso image.
 Then I installed python3,scapy and Wireshark using the command prompt.
