@@ -1,0 +1,4 @@
+prng_seed = 2672
+num_of_iterations = 8000
+
+
